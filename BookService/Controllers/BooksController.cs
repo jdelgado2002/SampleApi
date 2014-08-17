@@ -18,6 +18,7 @@ namespace BookService.Controllers
         private BookServiceContext db = new BookServiceContext();
 
         // GET: api/Books
+		[Authorize]
         public IQueryable<BookDTO> GetBooks() {
 	        var books = from book in db.Books
 		        select new BookDTO() {

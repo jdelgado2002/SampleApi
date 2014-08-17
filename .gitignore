@@ -1,3 +1,2 @@
-BookService\bin\*.*
-BookService\obj\*.*
+BookService/obj/*.*
 BookService/bin/*.*
