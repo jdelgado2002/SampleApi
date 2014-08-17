@@ -61,3 +61,5 @@ C:\dev\BookService\BookService\bin\System.Web.Http.Owin.xml
 C:\dev\BookService\BookService\obj\Debug\BookService.csprojResolveAssemblyReference.cache
 C:\dev\BookService\BookService\obj\Debug\BookService.dll
 C:\dev\BookService\BookService\obj\Debug\BookService.pdb
+C:\dev\BookService\BookService\obj\Debug\BookService.Migrations.Initial.resources
+C:\dev\BookService\BookService\obj\Debug\BookService.csproj.GenerateResource.Cache
