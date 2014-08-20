@@ -13,6 +13,9 @@ namespace BookService {
 			bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
 						"~/Scripts/modernizr-*"));
 
+			bundles.Add(new ScriptBundle("~/bundles/knockout").Include(
+				"~/Scripts/knockout-{version}.js"));
+
 			bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
 					  "~/Scripts/bootstrap.js",
 					  "~/Scripts/respond.js"));
@@ -21,8 +24,8 @@ namespace BookService {
 					  "~/Content/bootstrap.css",
 					  "~/Content/site.css"));
 
+
 			bundles.Add(new ScriptBundle("~/bundles/app").Include(
-				"~/Scripts/knockout-{version}.js",
 				"~/Scripts/app.js"));
 
 			// Set EnableOptimizations to false for debugging. For more information,
